@@ -18,7 +18,7 @@ public:
 			Application::Close();
 		}
 
-		if (GetAsyncKeyState(VK_BACK) & 1)
+		if (GetAsyncKeyState(VK_INSERT) & 1)
 		{
 			if (Drawing::IsActive())
 				Drawing::SetActive(false);
