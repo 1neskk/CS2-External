@@ -1,7 +1,7 @@
 # CS2 External Base
-This is a external base for a kernel-mode cheat for CS2 (but it can be used for any game with a few tweaks). It is written in C++ and achieves memory reading and writing through a kernel-mode driver. The communication between the user-mode application and the kernel-mode driver is done through *Function Hooking*.
+This is a user-mode external base for a kernel-mode cheat for CS2 (but it can be used for any game with a few tweaks). It is written in C++ and achieves memory reading and writing through a kernel-mode driver. The communication between the user-mode application and the kernel-mode driver is done through *Function Hooking*.
 
-This project was created in order to learn more about game hacking and reverse engineering. It is meant to be used for educational purposes only, because of that offsets are definitely outdated. Please note that this project is for educational purposes only and should not be used for malicious activities.
+This project was created in order to learn more about game hacking and reverse engineering. It is meant to be used for educational purposes only, because of that offsets are definitely outdated and keep in mind that this project should not be used for malicious activities.
 
 Note: This is just a base, it is not a fully functional cheat. You will need to make your own driver and find the offsets yourself, if you want to use this project.
 
